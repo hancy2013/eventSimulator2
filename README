@@ -1,0 +1,4 @@
+Event simulator
+read transactions from MongoDB database
+and enqueue it into Activemq
+depend from DataModel - интерфейс и класс определяющий событие - транзакцию
