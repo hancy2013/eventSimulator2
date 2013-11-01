@@ -1,15 +1,9 @@
 <project name="sim2" default="compile" xmlns:ivy="antlib:org.apache.ivy.ant">
     <!-- some variables used -->
-    <property name="lib.dir" value="${basedir}/lib" />
-    <property name="build.dir" value="${basedir}/build" />
- 	<property name="classes.dir" value="${build.dir}/classes" />
-    <property name="src.dir" value="src" />
-
-   <!-- ivy properties used -->
-    <property name="ivy.settings.dir" value="../settings" />
-    <property file="${ivy.settings.dir}/ivysettings.properties" />
-
-     <ivy:settings file="${ivy.settings.dir}/ivysettings.xml" />
+	<property file="${basedir}/../settings/global.properties" />
+   
+	<!-- ivy properties used -->
+     <ivy:settings file="${basedir}/../settings/ivysettings.xml" />
     
     <!-- paths used for compilation and run  -->
     <path id="lib.path.id">
