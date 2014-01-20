@@ -11,7 +11,7 @@ public class EnqueueMessage
 
     private String user = ActiveMQConnection.DEFAULT_USER;
     private String password = ActiveMQConnection.DEFAULT_PASSWORD;
-    private String url = "tcp://localhost:51616";
+    private String url = "tcp://localhost:61616";
     private boolean transacted = false;
     private String subject = "TrQueue";
     private boolean persistent = true;

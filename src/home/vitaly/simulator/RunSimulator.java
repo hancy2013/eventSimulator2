@@ -52,7 +52,6 @@ public void letsGoMaxSpeed() throws JMSException {
         }
 	}
 
-
 public void letsGoRealTime() throws JMSException {
 	mq.open();
 	for(long tik=fromHour*60*60; tik < 24*60*60; tik++)
